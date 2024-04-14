@@ -1,0 +1,499 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+/* .navbar{
+    height: 10px;
+} */
+
+.navbar .logo img {
+    height: 121px;
+    /* margin: -4px; */
+}
+
+.items {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+    top: -130px;
+    left: -25px;
+    padding: 5px 25px;
+    /* text-decoration: none; */
+
+
+}
+
+.items:hover {
+    text-decoration: underline;
+}
+
+.right {
+    /* float:right; */
+}
+
+
+
+.bigcontainer {
+    width: 100%;
+    height: 100%;
+}
+
+.items li a {
+    text-decoration: none;
+}
+
+.container {
+    height: 627px;
+    width: 564px;
+    border: 4px solid black;
+    top: 50%;
+    left: 50%;
+    margin-left: 520px;
+    margin-top: -20px;
+    border-radius: 19px;
+    border-width: 1px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-family: "Literata";
+}
+
+.center .btn button img {
+    height: 20px;
+    padding: -5px -15px;
+    /* text-align: center; */
+    position: relative;
+    top: 3px;
+    /* align-items: center;
+    justify-content: center; */
+
+
+}
+
+.btn button {
+    position: relative;
+    top: 40px;
+    left: 100px;
+    /* justify-content: space-between; */
+    font-size: large;
+    padding: 5px 8px;
+}
+
+.midcenter {
+    /* align-items: center; */
+    position: relative;
+    top: 100px;
+
+}
+
+.midcenter p {
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    padding: 50px;
+    top: -55px;
+    /* font-size: 27px; */
+    font-weight: 400;
+}
+
+.text h5 {
+    padding: 29px;
+}
+
+.newbtn {
+    position: relative;
+    top: -100px;
+    left: 80px;
+    border-radius: 10px;
+    border: transparent;
+    background: linear-gradient(to right, rgb(21, 84, 210), rgb(207, 218, 232));
+    font-size: larger;
+    width: 130px;
+}
+
+.newbtn:hover {
+    border: 2px solid black;
+}
+
+.text1 {
+    text-align: center;
+    position: relative;
+    top: 90px;
+    font-size: 50px;
+    font-weight: 400;
+
+
+}
+
+.firstcontainer {
+    width: 1440px;
+    height: 1024px;
+}
+
+.newthings h1 {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: -200px;
+    font-size: 102px;
+    font-weight: 400;
+
+}
+
+.newthings p {
+    text-align: center;
+    position: relative;
+    top: 130px;
+    left: -200px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 62.37px;
+    color: #0075ff;
+
+}
+
+.firstcontainer span {
+    position: relative;
+    top: 110px;
+    left: 160px;
+    /* padding: 150px 50px; */
+}
+
+.text2 {
+    position: relative;
+    text-align: center;
+    top: 150px;
+    font-size: 50px;
+    font-weight: 700;
+    left: 100px;
+
+}
+
+.text2 p {}
+
+.emptycontainer {
+    width: 1449px;
+    height: 140px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+.container2 {
+    width: 1679px;
+    height: 1700px;
+    gap: 0px;
+    opacity: 0px;
+    /* border: 2px solid red; */
+
+
+}
+
+.container2 h1 {
+    text-align: center;
+
+
+}
+
+.sub-container {
+    background-color: #9B9B9B2E;
+    ;
+    width: 1680px;
+    height: 299px;
+}
+
+.sub-container img {
+    position: relative;
+    width: 260px;
+    height: 275.89px;
+    /* top: 190px; */
+    left: 245px;
+    gap: 0px;
+    opacity: 0px;
+    /* background-color: grey; */
+
+}
+
+
+.sub-container h1 {
+    position: relative;
+    top: -300px;
+    left: -60px;
+    font-weight: 400;
+    font-size: 79px;
+    font-family: "Dancing Script";
+}
+
+.sub-container p {
+    position: relative;
+    top: -350px;
+    left: 599px;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: "Literata";
+}
+
+
+
+
+
+
+.pic img {
+    position: relative;
+    top: 60px;
+    left: 150px;
+}
+
+.pic h1 {
+    position: relative;
+    top: -235px;
+    left: 10px;
+    font-weight: 500;
+    font-size: 43px;
+
+
+
+}
+
+.pic p {
+    /* position: relative; */
+    /* top:-200px; */
+    /* left: -30px; */
+    width: 230px;
+    margin-left: 660px;
+    margin-top: -229px;
+    font-weight: 500;
+    font-size: 19px;
+
+
+}
+
+.pic2 img {
+    position: relative;
+    top: 130px;
+    left: 1050px;
+}
+
+.pic2 h1 {
+    position: relative;
+    top: -215px;
+    left: -90px;
+    font-weight: 500;
+    font-size: 43px;
+
+
+}
+
+.pic2 p {
+
+    width: 270px;
+    margin-left: 670px;
+    margin-top: -219px;
+}
+
+.container3 {
+    width: 1440px;
+    height: 753px;
+    top: 3006px;
+    gap: 0px;
+    opacity: 0px;
+    /* border: 2px solid rgb(227, 105, 11); */
+
+}
+
+.interiors img {
+    border-radius: 50%;
+    float: right;
+    width: 25%;
+    position: relative;
+    top: -110px;
+
+}
+
+.img1 {
+    position: relative;
+    top: -590px;
+    left: -25px;
+}
+
+.img2 {
+    position: relative;
+    top: -470px;
+    left: 550px;
+}
+
+.container3 .interiors h1 {
+    font-weight: 400;
+    font-size: 48px;
+    /* width: 694px; */
+    /* height: 71px; */
+    position: relative;
+    top: 90px;
+    /* left: 100px; */
+    /* background-color: #0FA6C0BF; */
+    width: 650px;
+    /* margin-left: 40px; */
+
+}
+
+.decor h1 {
+    text-decoration: underline;
+
+}
+
+.interiors h1 {
+    background: #0FA6C0BF;
+    border: 2px solid black;
+    /* padding: 10px; */
+    /* margin-left: -30px; */
+}
+
+.details h1 {
+    font-weight: 400;
+    font-size: 48px;
+    background-color: white;
+    border: white;
+}
+
+.details p {
+    font-weight: 400;
+    font-size: 36px;
+    position: relative;
+    left: 170px;
+    top: -80px;
+
+}
+
+/* .role h1{
+    position: relative;
+    top: -40px;
+} */
+
+.role p {
+    width: 690px;
+    height: 400px;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.text3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    position: relative;
+    left: 500px;
+}
+
+.container4 {
+    width: 2000px;
+    height: 428px;
+    background-color: #4BBDD0;
+    overflow-y: hidden;
+}
+
+.container4 .left {
+    width: 290px;
+    height: 200px;
+    position: relative;
+    top: 90px;
+    left: 50px;
+    font-family: "Literata";
+}
+
+
+.left h1 {
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.left p {
+    font-weight: 300;
+    font-size: 36px;
+    font-family: "Literata";
+}
+
+
+
+.container4 .mid {
+    /* text-align: center; */
+    position: relative;
+    left: 800px;
+    top: -180px;
+    width: 490px;
+
+}
+
+.mid span i {
+    font-weight: 400;
+    font-size: 41px;
+    font-size: 36px;
+    width: 250px;
+    position: relative;
+    top: 10px;
+}
+
+.mid span p {
+    font-weight: 400;
+    font-size: 27px;
+    position: relative;
+    left: 50px;
+    top: -50px;
+}
+
+.mid span i,p {
+    /* width: 20px; */
+    position: relative;
+    /* top: -80px; */
+}
+
+.right p {
+    font-weight: 300;
+    font-size: 36px;
+    position: relative;
+    left: 1300px;
+    top: -450px;
+
+}
+
+.right span img {
+    position: relative;
+    left: 1300px;
+    top: -450px;
+}
+
+.sub-container1 {
+    position: relative;
+    left: 900px;
+    width: 1980px;
+    height: 399px;
+    background: #9B9B9B2E;
+
+
+
+}
+
+.sub-container1 h1 {
+    position: relative;
+    left: -1200px;
+    top: -270px;
+    font-weight: 400px;
+    font-size: 79px;
+    font-family: "Dancing Script";
+    /* background-color: #9B9B9B2E; */
+}
+
+.sub-container1 p {
+    position: relative;
+    top: -330px;
+    left: -270px;
+    font-weight: 400;
+    font-size: 25px;
+}
